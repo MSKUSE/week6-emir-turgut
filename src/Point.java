@@ -1,16 +1,24 @@
 public class Point {
 
-    protected int xCoord, yCoord;
+    protected int xCord, yCord;
 
     public Point(){}
 
     public Point(int x , int y){
-        this.xCoord = x;
-        this.yCoord = y;
+        this.xCord = x;
+        this.yCord = y;
     }
 
     public Point(int xy){
-        this.xCoord = xy;
-        this.yCoord = xy;
+        this.xCord = xy;
+        this.yCord = xy;
+    }
+
+    @Override
+    public String toString() {
+        return "Point{" +
+                "xCord=" + xCord +
+                ", yCord=" + yCord +
+                '}';
     }
 }
