@@ -1,4 +1,4 @@
-/*public class TestMyDate {
+public class TestMyDate {
 // We are free to play with this.
 	public static void main(String[] args) {
 		MyDate date = new MyDate(28,2,2017);
@@ -74,4 +74,4 @@
 
 	}
 
-}*/
+}
